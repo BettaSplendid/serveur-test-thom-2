@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="histoire.css">
+    <title>Notre Histoire</title>
+</head>
+
+<body class="body">
+    <!-- Page Content -->
+    <header class="banner">
+        <div>
+            <h1>Aux origines</h1>
+        </div>
+    </header>
+    <section class="stuff">
+        <br>
+        <button type="button" class="collapsible"><h3>Creation</h3></button>
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button type="button" class="collapsible"><h3>Choc Petrolier</h3></button>
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button type="button" class="collapsible"><h3>Expansion autrichienne</h3></button>
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button type="button" class="collapsible"><h3>Expansion australienne</h3></button>
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+    </section>
+
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+
+    <footer class="footerman">
+        <a href="contact.html">Contact Information</a> -
+        <a href="test.php">Formulaire de test</a> -
+        <a href="first.php">First</a> -
+        <a href="about.html">Plus sur nous</a> -
+        <a href="about.html">Information d'accès</a> -
+    </footer>
+</body>
