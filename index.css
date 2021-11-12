@@ -56,9 +56,9 @@ p {
 
 .laform {
     width: fit-content;
-    height: 50%;
-    text-align: center;
-    padding: 10%;
+    height: 20%;
+    padding: 1%;
+    text-align: right;
     background-color: brown;
 }
 

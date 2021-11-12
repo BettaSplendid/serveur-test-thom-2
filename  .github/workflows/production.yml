@@ -11,10 +11,10 @@ jobs:
       - name: Deploy Prod
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SSH_SERVER_ALAJI }}
-          username: ${{ secrets.SSH_USER_ALAJI }}
-          password: ${{ secrets.SSH_PASSWORD_ALAJI }}
-          port: ${{ secrets.SSH_PORT_ALAJI }}
+          host: ${{ secrets.LE_SECRET_TRES_SECRET_HOSTHOST }}
+          username: ${{ secrets.LE_SECRET_TRES_SECRET_USERUSER }}
+          password: ${{ secrets.LE_SECRET_TRES_SECRET_PASSPASS }}
+          port: ${{ secrets.LE_SECRET_TRES_SECRET_PORT }}
           script: |
             cd /var/www/html/page_html
             git fetch 
