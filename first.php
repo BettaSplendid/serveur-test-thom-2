@@ -15,7 +15,7 @@ $con = mysqli_connect("localhost","stagiaire10","stagiaire10","utilisateurs");
 
 
 // database insert SQL code
-$sql = "INSERT INTO `utilisateurs` (`id`, `name`, `age`, `email`, `password`, `phone`, `city`) VALUES ('0', '$name', '$age', '$email', '$password', '$phone', '$city');"
+$sql = "INSERT INTO `utilisateurs` (`id`, `name`, `age`, `email`, `password`, `phone`, `city`) VALUES ('0', '$name', '$age', '$email', '$password', '$phone', '$city')";
 
 
 

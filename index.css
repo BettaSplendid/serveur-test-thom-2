@@ -1,25 +1,28 @@
 .Sidebarrrr {
     background-color: rgb(228, 20, 255);
     left: 0%;
-    bottom: 0%;
+    bottom: 0;
     height: 100%;
-    width: auto;
-    position: fixed;
-    overflow-wrap: break-word;
+    width: 10%;
+    position: absolute;
 }
 
 .mainbody {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
     background-color: lightblue;
     margin-left: 10%;
     width: 100%;
     display: block;
     cursor: pointer;
+    position: relative;
 }
 
 .banner {
+    text-align: center;
+    background-color: yellow;
+    width: 90%;
+}
+
+.banner-content {
     text-align: center;
     background-color: yellow;
 }
@@ -28,19 +31,31 @@
     background-color: chocolate;
 }
 
+.image_titre {
+    margin-top: auto;
+    display: block;
+    background-color: blue;
+}
+
+.image_legend {
+    background-color: red;
+    display: inline;
+    text-align: center;
+    width: 100px
+}
+
 .footerman {
     bottom: 0;
     height: 100px;
+    width: 100%;
     padding-top: 40px;
     text-align: center;
     background-color: rgb(0, 241, 72);
 }
 
-.image_titre {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
+
+/* 
+THIS HANDLES THE TEXT AND ONLY THE TEXT */
 
 h3 {
     color: rgb(146, 22, 22);
@@ -53,16 +68,3 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
-
-.laform {
-    width: fit-content;
-    height: 20%;
-    padding: 1%;
-    text-align: right;
-    background-color: brown;
-}
-
-
-/* #grille {
-    border: 1px solid black;
-} */

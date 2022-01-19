@@ -1,0 +1,49 @@
+.background_stuff {
+    background-image: url("ressources-img/700_FO52845361_8f576c02b1acb4680cc8ad5a063a74c8.jpg");
+    background-color: rgb(63, 78, 49);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    min-width: 100%;
+    padding-top: 30px;
+    vertical-align: baseline;
+}
+
+.banner_title {
+    display: block;
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(87, 67, 30);
+    width: 1000px;
+    text-align: center;
+}
+
+.banner_nav {
+    text-align: center;
+    background-color: rgb(0, 12, 243);
+    height: 50px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.general_container {
+    background-color: rgb(223, 219, 192);
+    height: 100%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.column_comments {
+    width: fit-content;
+    text-align: right;
+    background-color: darkorange;
+    padding: 4px;
+}

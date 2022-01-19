@@ -1,0 +1,23 @@
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* .table_table {
+    background-color: rgb(206, 133, 206);
+} */
+
+tbody :nth-child(even) {
+    background-color: lime;
+}
+
+tbody :nth-child(odd) {
+    background-color: rgb(253, 218, 253);
+}
