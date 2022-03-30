@@ -41,14 +41,14 @@ function callweather() {
 
     let weather = null;
     // let city_name = null;
-    let api_key = '58c183e75c4147058bbc918913d04108';
+    let api_key = '';
     let city_name = 'metz';
     let url = "http://api.openweathermap.org/data/2.5/weather?q=" + city_name + "&appid=" + api_key;
     //let theurl = "http://api.openweathermap.org/data/2.5/weather?q=" + city_name + "&appid=" + api_key;
 
     $.ajax({
         url: url,
-        //url: "http://api.openweathermap.org/data/2.5/weather?q=metz&appid=58c183e75c4147058bbc918913d04108",
+        //url: "http://api.openweathermap.org/data/2.5/weather?q=metz&appid=APIHERE",
 
         type: "GET",
         dataType: "JSON",
